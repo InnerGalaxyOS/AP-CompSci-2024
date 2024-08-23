@@ -1,1 +1,143 @@
+//page 1
+skip
 
+//page 2
+76
+/*:
+👆Notice how the number above looks different?
+This style of text is *editable code*, which means you can write it or change it to make things happen.
+
+For negative numbers use the minus sign:
+ */
+-120
+/*:
+Notice how the numbers also show up in the gray area to the right? 👉
+
+That area is called the _results sidebar_. As you add or change code, the playground runs your code again and updates the results in the sidebar.
+
+ - Experiment: 
+   - Click a line of code to move the cursor there.
+   - Type to start editing code.
+   - Change the numbers a few times.
+   - Add a few new numbers, each on a separate line.
+
+ Notice that every time you make a change the results are updated in the sidebar.
+
+Next, find out how to put the results sidebar to better use.
+ 
+[Previous](@previous)  |  page 2 of 7  |  [Next: Calculations](@next)
+ */
+
+//page 3
+
+34 + 56 + 230
+
+1000 - 300
+/*:
+These signs are formally known as *arithmetic operators*. The `+` operator performs an addition operation on the two values to either side.
+The asterisk `*` is the multiplication operator:
+ */
+3 * 100
+//: The division operator is the slash `/`. (If the two numbers don't divide evenly, the remainder is discarded.)
+24 / 8
+
+17 / 3
+//: Note that Swift observes the standard precedence of operations: `*` and `/` before `+` and `-`.
+2 * 5 + 8
+
+8 + 2 * 5
+//: And it performs same-precedence operations in order from left to right:
+120 / 6 * 2
+//: There's also a special `%` operator to calculate the remainder of a division. (You'll learn more about practical uses of the remainder, or *modulo*, operator later in this course.)
+12 % 7
+//: The remainder operator observes the same precedence as multiplication and division.
+12 % 5 + 4 / 2
+//: For grouping, use parentheses `( )`, which take precedence over all other operators:
+(8 + 2) * 5
+120 / (6 * 2)
+(300 + 500 + 400) / (6 / 2)
+/*:
+ - Experiment: 
+Practice using the playground like a calculator.
+Edit some of the existing expressions and add a few of your own.
+Notice that every time you make a change the results are updated in the sidebar.
+ */
+ 
+
+/*:
+Next, learn how programmers can leave notes in code.
+
+[Previous](@previous)  |  page 3 of 7  |  [Next: Comments](@next)
+ */
+
+//page 4
+// This is a comment; it does not affect the code
+34 + 56 + 230
+//: Because comments are ignored, no result is displayed in the results bar for that line of code.
+// 200 + 34 + 45
+/*:
+ - Experiment: 
+Try _commenting out_ the calculation `34 + 56 + 230` by adding two slashes to the beginning of the calculation.\
+Try _uncommenting_ the calculation `200 + 34 + 45` by deleting the two slashes.\
+Edit some of the existing expressions and add a few of your own.\
+Notice that every time you make a change the results are updated in the sidebar.
+ */
+ 
+/*:
+ Programmers often comment out and uncomment code as they work. But there's a much more important use for comments. When you write code, you should also document it. Documentation helps you record why you made certain decisions and explain how your code works. You could write such explanatory material in a separate file, but it's much easier to be able to read the documentation of your code inline with the code itself. Programmers use comments to document their code as they write it.
+ 
+ For example, what did the calculations above represent? With comments, the code becomes clear.
+ */
+// Total money (in dollars): Coin jar, wallet, and bank account
+34 + 56 + 230
+
+// Minutes of violin practice: Two weeks ago, last week, and this week
+200 + 34 + 45
+/*:
+Take a deep breath and move on to the next page.
+
+[Previous](@previous)  |  page 4 of 7  |  [Next: When Things Go Wrong 😰](@next)
+ */
+
+//page 5
+//no code :( so skip
+
+//page 6
+1000 / 2
+/*:
+Since there's an error, the playground stops running your code.\
+Notice that there are no results displayed in the sidebar. 👉
+ */
+// Simple math questions
+2 + 2
+/*:
+In this case the error is “Division by zero”. You can’t divide by zero in math class, and a computer can’t divide by zero either.
+
+ - Experiment:
+Change the `0` to another number to fix the error.
+
+Next, read all about your very recent past.
+
+[Previous](@previous)  |  page 6 of 7  |  [Next: Wrapping Up](@next)
+ */
+
+//page 7
+Wrapping Up
+
+In this playground, you’ve had a quick tour of playgrounds and the results sidebar. You’ve also learned a number of things to get you on the road to programming:
+
+Doing mathematical calculations
+Using comments
+Troubleshooting errors when things go wrong
+
+Congratulations!
+
+Copyright © 2021 Apple Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+//Done.
