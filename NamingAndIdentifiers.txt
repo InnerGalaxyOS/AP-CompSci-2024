@@ -1,0 +1,281 @@
+//Page 1 
+Skip
+
+//Page 2
+// Number Of Dogs
+5
+
+// Number Of Cats
+4
+
+// Number Of Turtles
+3
+
+//: Then you could copy those numbers onto new lines of code and let the playground do some math for you, like this:
+// Total Number Of Animals
+5 + 4 + 3
+
+// Total Number Of Mammals
+5 + 4
+/*:
+ - Experiment: As the week goes on, you get more information about what pets will be in the show.\
+Change the code above to update the totals.
+
+For example, if another person is bringing a dog, change the `Number Of Dogs` from `5` to `6` and change the `5` to a `6` everywhere else it appears (`Total Number Of Animals` and `Total Number Of Mammals`).
+
+If someone is bringing a new kind of animal, use the same pattern as the other animal counts. Add a new comment (`// Number Of Hamsters` for example) on one line with a number on the next line. Don’t forget to update the totals.
+
+- Another person is bringing a dog.
+- One of the turtles is sick and won’t be coming.
+- Another person is bringing a cat.
+- Someone is bringing a hamster (a mammal).
+
+ Could there be a better way to solve this problem? Think about it for a minute or two, then move on.
+
+[Previous](@previous)  |  page 2 of 14  |  [Next: Pet Problem Recap](@next)
+ */
+
+//Page 3
+// Number Of Dogs
+6
+
+// Number Of Cats
+5
+
+// Number Of Turtles
+2
+
+// Number Of Hamsters
+1
+
+// Total Number Of Animals
+6 + 5 + 2 + 1
+
+// Total Number Of Mammals
+6 + 5 + 1
+/*:
+This playground definitely helped you solve your friend’s problem. You kept track of the number of each kind of animal, the total number of animals, and the total number of mammals.
+
+But as you did the experiment, you might have noticed it was easy to make a mistake. You had to change the number in multiple places. And if you forgot to update it everywhere, your totals would be wrong.
+
+You also had to remember which number tracked each kind of animal. Without the comment that identified each number, it’s difficult to keep things straight.
+
+One of the most useful practices when writing code is giving something a name. Instead of repeating numbers that all refer to the same thing, you can give that thing a name — then use the name instead of the number in your code.
+
+Next you’ll find out how to name things.
+
+[Previous](@previous)  |  page 3 of 14  |  [Next: Naming Things](@next)
+ */
+
+//Page 4
+Naming Things
+
+In programming, names can be very descriptive and useful, helping you keep track of what’s what — just like the names you give things in real life. In code, when you give a value a name, you can use that name everywhere you would use the value. This is a form of abstraction that makes the code easier to read and understand.
+
+Names also help you avoid errors in your code. For example, it was easy to make a mistake in the pet show experiment, since you had to change a number in multiple lines of code for each update. But if you’d defined a name for each value (for example, the number of turtles), you would only need to change the definition of the name once and the updated definition would be used everywhere the name appears in your code.
+
+In Swift, you can choose a name and associate it with a value by defining a constant. You’ll explore constants in more detail later in the course. For now, it’s enough to know that constants are a fundamental way of naming values in Swift.
+
+Use the word let followed by a name to define a constant, and use the equal sign = to give a value to the constant:
+
+let numberOfDogs = 6
+
+let numberOfCats = 5
+
+let numberOfTurtles = 2
+
+let numberOfHamsters = 1
+//: After you’ve defined a constant and assigned a value to it, you can use the constant wherever you would have used the value, including in mathematical calculations that define the value of yet another constant:
+ 
+let totalNumberOfAnimals = numberOfDogs + numberOfCats + numberOfTurtles + numberOfHamsters
+
+let totalNumberOfMammals = numberOfDogs + numberOfCats + numberOfHamsters
+
+/*:
+Now it will be much easier — and less error-prone — to update the number of a certain kind of animal. You only have to update the value where the constant is defined.
+
+You can even let the playground do the math for you by adding or subtracting on the right-hand side of the equal sign. For example, if two more people were bringing a dog, instead of changing the 6 to an 8, you could type:
+
+`let numberOfDogs = 6 + 2`
+
+ - Experiment: As the week goes on, you get even more information about people’s pets.\
+Update the code above for the following updates:
+   - Two more people are bringing a dog.
+   - One of the cats cannot make it.
+   - The sick turtle is feeling much better and will be coming to the pet show.
+   - Another person is bringing a hamster.
+
+Once you’re finished experimenting, move ahead.
+
+[Previous](@previous)  |  page 4 of 14  |  [Next: Typing Names and Autocompletion](@next)
+ */
+
+//Page 5
+Skip
+
+//Page 6
+Identifiers
+
+In Swift, a name is formally called an identifier, and you'll see the term identifier used in error messages. But programmers typically use the more informal word name. In this course, you'll become familiar with both terms.
+
+Names for constants start with a lowercase letter. As in the examples below, they can include several words, all run together. (If there's a space between the words, Swift will think each word is a different identifier.)
+
+To make it easier to read identifiers with multiple words, every word after the first word should be capitalized. This way of writing out names is called camel case, because the capital letters in the middle of the name look a bit like the humps of a camel. 🐫
+
+let numberOfDogs = 6 + 2
+
+let numberOfCats = 5 - 1
+
+let numberOfTurtles = 2 + 1
+
+let numberOfHamsters = 1 + 1
+
+let totalNumberOfAnimals = numberOfDogs + numberOfCats + numberOfTurtles + numberOfHamsters
+
+let totalNumberOfMammals = numberOfDogs + numberOfCats + numberOfHamsters
+
+
+/*:
+ - Experiment: There are even more changes in the number of pets expected at the pet show.\
+To add new kinds of animals, add new lines of code that define new constants. (To add a new line of code, just click in a blank line in the area above and start typing.)
+
+Make the following additions:
+- Someone is bringing a pot-bellied pig (a mammal).
+- Someone is bringing a fish (not a mammal).
+- Someone is bringing a snake (definitely not a mammal).
+
+Next, learn about choosing names. 
+
+[Previous](@previous)  |  page 6 of 14  |  [Next: Choosing Good Names](@next)
+ */
+
+//Page 7
+Choosing Good Names
+
+Choosing good names is a very important programming skill. Programmers want to choose good names so that their code is easy to read and understand.
+
+So far, you’ve used names like numberOfDogs and numberOfCats. These are good names because they clearly describe what they represent.
+
+Imagine if the names had been nd and nc instead (for number of dogs and number of cats).
+Or even less descriptive names, like n1 and n2.
+
+Swift will accept names like this without complaint. But imagine coming back to read that code after vacation. Would you remember what nd or n1 meant? And if you gave the playground to other programmers, how would they figure out what those names were supposed to mean?
+
+let 🐶 = 8
+let 🐱 = 4
+let 🐹 = 2
+let 🐢 = 3
+let 🐍 = 1
+let 🐷 = 1
+let 🐟 = 1
+
+let totalNumberOfAnimals = 🐶 + 🐱 + 🐹 + 🐢 + 🐍 + 🐷 + 🐟
+
+let totalNumberOfMammals = 🐶 + 🐱 + 🐹 + 🐷
+
+/*:
+ - callout(Why not?): Why not use emoji for names? One reason is that it can be difficult to tell emoji apart at a glance. Another is that there might not be an emoji for every case. What if someone brought a pet tarantula to the pet show? There’s no emoji to match. Using words is a lot more flexible and definitely more reliable.
+
+Next, learn the official names for the work you’ve been doing.
+
+[Previous](@previous)  |  page 7 of 14  |  [Next: Programmer Talk](@next)
+ */
+
+//Page 8
+Programmer Talk
+
+Developing apps is more than figuring out what to type into Xcode. Programmers work together to discuss how to solve problems and explain things to each other. So it’s important to learn the terminology programmers use.
+Throughout this course, you’ll learn how to write code and create apps, but you’ll also learn the terms you need to talk about code with other developers.
+In this playground, you learned the terms constant and identifier. Keep reading to understand some additional terms. 
+Starting with your first playground, you wrote code like 6 + 2, which is an example of an expression. The computer evaluates expressions to produce a value. 
+Expressions by themselves carry a minimal amount of information. In this playground you added the value of statements. Statements are more like instructions or actions (and they usually contain expressions) and are often referred to informally as lines of code.
+
+let numberOfDogs = 101
+/*:
+When you define a constant in Swift, it’s called _declaring_ a constant. So the statement above is known as a _declaration_. The instruction it gives to the computer is “Declare that the name `numberOfDogs` has the value `101`.”
+
+The word `let` is an example of a _keyword_. Each keyword has a special meaning in Swift and can't be used as a name.  The `let` keyword is used to declare a constant. Over time, you’ll be introduced to more Swift keywords.
+
+The last part of the statement, `= 101`, is where you _assign_ a value to the constant. This is called _assignment_ and the equal sign `=` is called the _assignment operator_.
+
+ - Note: Don’t worry about memorizing every new term - it can be overwhelming! You’ll see these terms used in context during the rest of the course, and you can always find them in the Glossary if you need to refresh your memory.
+
+[Previous](@previous)  |  page 8 of 14  |  [Next: Wrapping Up](@next)
+ */
+
+//Page 9
+Skip
+
+//Page 10
+// Number Of Tickets
+150
+
+// Ticket Price
+10
+
+// Room Rental Fee
+1000
+
+// Poster Cost
+40
+
+// Total Ticket Value
+150 * 10
+
+// Total Expenses
+1000 + 40
+
+// Total Income Of Show
+(150 * 10) - (1000 + 40)
+/*:
+ - callout(Exercise): Using the code above as a reference, use `let` statements to define constants to better solve your friend’s problem.\
+Add your code below. To help you get started, the constant `numberOfTickets` is already defined.
+ */
+let numberOfTickets = 150
+let ticketPrice = 10
+let roomFee = 1000
+let posterCost = 40
+let totalTicketValue = numberOfTickets * ticketPrice
+let expenses = roomFee + posterCost
+let income = totalTicketValue - expenses
+
+/*:
+[Previous](@previous)  |  page 10 of 14  |  [Next: Exercise: Lottery Tickets](@next)
+ */
+
+//Page 11
+Exercise: Lottery Tickets:
+Your friend’s entrepreneurial spirit knows no bounds. Now your friend is running the town lottery.
+By naming things and only setting a value once, it's easier to figure out the correct way of calculating something. Later, you can change the values and check the answers.
+
+/ Values you should edit
+let ticketsSold = 1000
+let ticketPrice = 5
+let printingCosts = 20
+let advertising = 50
+/*:
+ - callout(Exercise): You’ve done enough work for free for your friend. In return for your help on this venture, your friend will give you a tenth of the profits. The jackpot is half of the total ticket sales money. Try changing the numbers above - tickets sold, ticket price, printing costs, or advertising costs  - and see if you can get your cut up to 100 or more.
+
+ The calculations below are fixed, but you can change the results by changing the numbers above:
+ */
+// Total takings
+let totalTakings = ticketPrice * ticketsSold
+
+// Jackpot
+let jackpot = totalTakings / 2
+
+// Expenses
+let totalExpenses = printingCosts + advertising
+
+// Profit
+let profit = totalTakings - jackpot - totalExpenses
+
+// Distribution
+let programmersCut = profit / 10 // This is the answer you want to get > 100! 👉 
+let friendsCut = profit - programmersCut
+
+/*:
+[Previous](@previous)  |  page 11 of 14  |  [Next: Exercise: What Fits on Your iPhone?](@next)
+ */
+
+//Page 12
