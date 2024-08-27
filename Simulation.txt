@@ -1,0 +1,40 @@
+//Page 1
+//skip
+
+//Page 2
+
+startSimulation()
+//Had me observe a simulation
+
+//Page 3
+
+startSimulation()
+let NumberOfAnt = 100
+let SpeedOfAnts =  170
+
+//Page 4
+
+let environmentCellSize = 10
+let numberOfAnts = 100
+let pheromoneEvaporationRate = 50
+let pheromoneDepositRate = 4
+
+//Page 5
+
+let homePheromoneDepositRate = 100
+let foodPheromoneDepositRate = 100
+let homePheromoneEvaporationRate = 50
+let foodPheromoneEvaporationRate = 50
+
+let environmentCellSize = 10
+let numberOfAnts = 100
+
+let NumberOfAnt = 100
+let SpeedOfAnts =  170
+
+//Page 6
+//Skip
+
+
+//Done
+
