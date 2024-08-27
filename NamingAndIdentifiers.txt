@@ -279,3 +279,38 @@ let friendsCut = profit - programmersCut
  */
 
 //Page 12
+
+let One_Minute_video = 150
+let Iphone = 5000
+let Storage_Max =  (Iphone/One_Minute_video)
+
+//Page 13
+
+let brushTeeth = 3
+let goJogging = 45
+let ChooseClothes = 5
+let fixLunch = 0
+let finishHomework = 50
+let shower = 35
+let Game = 30
+
+let morning = (brushTeeth+goJogging+ChooseClothes+fixLunch+shower+finishHomework)
+
+let HaveTo = (finishHomework+shower+brushTeeth+ChooseClothes)
+let LikeTo = (goJogging+Game)
+
+//Page 14
+
+let NumberOfOrangePallets = 14
+let NumberOfWPallets = 3
+let OrangeWeight = 100
+let WatermelonWeight = 200
+let TotalOranges = OrangeWeight * NumberOfOrangePallets
+let TotalWatermelons = NumberOfWPallets * WatermelonWeight
+let TotalWeight = TotalOranges + TotalWatermelons
+let es = TotalWeight / 2
+let DivisionOfPallets = TotalOranges / TotalWatermelons
+let rhso = es - DivisionOfPallets
+
+
+//Done
