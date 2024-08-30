@@ -6,3 +6,44 @@
 
 //Page 3
 
+let heightInCentimeters = 7817
+
+let favoriteBook = "The Sun Also Rises"
+
+let traditionalGreeting = "Hello, world!"
+// Declare a favoriteMovie constant
+let favoriteMovie = "Titanic"
+
+// Declare a favoriteSong constant
+let favoriteSong = "Flex Up"
+
+//Page 4
+
+let englishGreeting = "Hello, World!"
+
+let chineseGreeting = "你好，世界!"
+
+let spanishGreeting = "¡Hola Mundo!"
+
+let russianGreeting = "Привет мир!"
+
+let japaneseGreeting = "こんにちは世界!"
+
+// Constant name in Chinese that means 'English Greeting'
+let 英语问候 = "Hello, World!"
+
+// Constant name in French that means 'English Greeting'
+let salutationAnglais = "Hello, World!"
+
+let welcomingPhrase = "Welcome! 😀"
+let fruitSalad = "🍓🍏🍒🍐🍇🍉🥭🥥🍊"
+
+//Page 5
+
+print("Hello")
+print("Hi")
+let UhOh = "UH OH"
+print(UhOh)
+
+//Page 6
+
