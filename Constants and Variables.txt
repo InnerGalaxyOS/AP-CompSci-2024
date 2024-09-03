@@ -1,0 +1,72 @@
+//Page 1
+//Skip
+
+//Page 2
+
+let birthPlace = "Long Beach"
+var currentLocation = "Aquinas"
+let Ilivein = "San Bernardino"
+let age = 17
+var favMovie = "Friday"
+let InchesInAFoot = 12
+let FirstPrez = "George Washington"
+
+//Page 3
+
+// Declaring a constant
+let placeOfBirth = "New Jersey"
+
+// Declaring a variable
+var currentLocation = "New Jersey"
+
+// Assigning a new value to a variable
+currentLocation = "California"
+
+// Assign a new value
+currentLocation = "Aquinas in San Bernardino"
+
+//Page 4
+
+var score = 0
+score = 10
+score = 15
+score = score + 5
+
+score + 5
+score
+score + 3
+score
+
+score = score + 5
+score = score + 3
+
+ score = 5
+score = score + score
+
+//Page 5
+
+// Value is initially zero
+var score = 0
+
+// Take the current value of `score`, add 2, assign the result to `score` as its new value
+score = score + 2
+
+var greeting = ""
+greeting += "Hello"
+greeting += " "
+greeting += "World"
+
+//Experiment:
+
+let word1 = "Compound"
+let word2 = "assignment"
+let word3 = "is"
+let word4 = "useful"
+let space = " "
+
+var statement = ""
+statement += word1 + space
+statement += word2 + space
+statement += word3 + space
+statement += word4 + "!"
+
