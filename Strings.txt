@@ -47,3 +47,176 @@ print(UhOh)
 
 //Page 6
 
+// This might change over time
+let likesYourPostMessage = "likes your post"
+
+// This part of the message will get reused
+let FirstName = "Evan"
+let LastName = "Willett"
+// Concatenate strings by using the plus sign
+let finishedMessage = FirstName + " " + LastName + " " + likesYourPostMessage
+
+//Experiment
+// Declare a firstName constant
+let First_Name = "Evan"
+
+// Declare a lastName constant
+let Last_Name = "Willett"
+
+// Combine the strings into a fullName constant
+let FullName = First_Name + " " + Last_Name
+
+// Combine your full name with likesYourPostMessage
+let FullMessage = FullName + " " + likesYourPostMessage
+
+//Page 7
+
+// Forgot to add the space between the first name and last name.
+let fullName = "Johnny Appleseed"
+
+let firstName = "Tara"
+let city = "Paris"
+let welcomeString = "Hello " + firstName + ", welcome to " + city + "!"
+
+//Page 8
+
+let firstName = "Tim"
+let city = "Cupertino"
+
+let welcomeString = "Hello \(firstName), welcome to \(city)"
+
+/ Change this to your favorite food
+let favoriteFood = "fajitas"
+
+// Change this to why you like it
+let reason = "yummy"
+
+// Define a string below in the pattern "I like ___ because it is ___."
+let Description = "I like " + favoriteFood + " because it is " + reason + "."
+
+//Page 9
+
+let spelledOutNumber = "six"
+let meal = "breakfast"
+let aliceQuotation = "Why, sometimes I’ve believed as many as \(spelledOutNumber) impossible things before \(meal)!"
+
+//Page 10
+
+let goalieName = "Alison"
+let firstHalfSaves = 3
+let secondHalfSaves = 6
+let overtimeSaves = 2
+let goalieReportString = "At the game yesterday, \(goalieName) had \(firstHalfSaves) saves in the first half, \(secondHalfSaves) in the second half and \(overtimeSaves) saves in overtime, for a total of \(firstHalfSaves + secondHalfSaves + overtimeSaves) saves."
+
+//Experiment:
+// Add your version of the story below
+let HackerName = "Aiden Pierce"
+let NumberofSaves = 23
+let EvilOrganization = "CitrusOS"
+let UltimateGoal = "Save Chicago"
+let Story = "\(HackerName) Had to stop \(EvilOrganization) because of thier actions. They were responsible for putting \(NumberofSaves) in danger. They would be no longer if it werent for \(HackerName). His next goal is to now \(UltimateGoal)."
+
+//Page 11
+
+//let badString = "He said, "Hi there!" as he passed by."
+et stringWithQuotationMarks = "He said, \"Hi there!\" as he passed by."
+
+//Page 12
+
+// The backslash followed by a quotation mark is an escape sequence.
+let favoriteQuotation = "Hamlet said, \"To be, or not to be?\""
+
+// Another escape sequence is the placeholder in an interpolated string.
+let flavor = "chocolate"
+let iceCreamAnnouncement = "The flavor of the day is \(flavor)"
+
+let startOfAPoem = "Roses are red.\n Violets are blue."
+
+//Page 13
+//Skip
+
+//Page 14
+
+let constants = "Declaring string constants"
+let unicode = "Unicode characters (😎)"
+let combining = "Combining strings using +"
+let interpolation = "String interpolation (aka Fill in the Blanks)"
+let escaping = "Escape characters for \"special powers\""
+let newline = "Making new lines"
+
+//Experiment:
+let EscapeSequence = "Hello there, \n Welcome to my humble abode."
+let Firstname = "Evan"
+let Interpolation = "I, \(Firstname), learned interpolation."
+let TypeEscape = "\"Gamblers quit before they hit it big\" Is a quote I like because gambling is fun :)"
+let UnICode = "Wait whaaaa 😢"
+
+//Page 15
+let customerOrderOne = "fish"
+let customerOrderTwo = "risotto"
+let customerOrderThree = "soup"
+
+let serverResponseToTableOne = "Let me make sure I've got this right: fish, risotto, and soup. Is that everything?"
+
+let tableOneResponse = "Yes, thank you!"
+
+/*:
+### Later that day:
+ 
+ 
+ Three other guests enter and place their orders:
+ */
+ 
+let customerOrderFour = "돌솥비빔밥"
+let customerOrderFive = "Pasztecik szczeciński"
+let customerOrderSix = "小笼包"
+
+
+//Experiment:
+let serverResponseToTableTwo = "Let me make sure I've got this right: \(customerOrderFour), \(customerOrderFive), and \(customerOrderSix). Is that correct?"
+
+let tableTwoResponse = "Perfect, merci bien."
+
+//Page 16
+
+//Experiment:
+let schoolName = "Aquinas"
+let refrain = "oh oh Here we go \(schoolName) Oh Ooh oh"
+
+let song = "\(refrain)\n\(refrain)\nYes, \(refrain)"
+
+//Page 17
+
+//Experiment:
+let One_Minute_video = 150
+let Iphone = 5000
+let MaxAmount = Iphone/One_Minute_video
+let Text = "You can record \(MaxAmount) more minutes of video unitl you have no more storage"
+
+//Page 18
+
+"Hello, world!"
+print("Hello, world!")
+
+8
+print(8)
+7 + 11
+print(7 + 11)
+
+"Have you seen" + "..." + "nevermind."
+print("Have you seen" + "..." + "nevermind.")
+
+let authorName = "Beatrix Potter"
+print(authorName)
+let bookTitle = "Jemima Puddleduck"
+print(bookTitle)
+
+var favoriteCookie = "chocolate chip"
+print("My favorite type of cookie is \(favoriteCookie).")
+favoriteCookie = "double chocolate chip"
+print("Wait! I forgot about \(favoriteCookie). That one is even better.")
+
+//Last Experiment:
+print(authorName)
+"authorName"
+"Did you know that \(bookTitle) was written by \(authorName)?"
